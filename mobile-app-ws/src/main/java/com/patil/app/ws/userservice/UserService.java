@@ -5,4 +5,5 @@ import com.patil.app.ws.ui.model.response.UserRest;
 
 public interface UserService {
 	UserRest createUser(UserDetailsRequestModel userDetails);
+	UserRest getUser(String userId);
 }

@@ -42,4 +42,9 @@ public class UserServiceImpl implements UserService {
 		return returnValue;
 	}
 
+	@Override
+	public UserRest getUser(String userId) {
+		return users.get(userId);
+	}
+
 }
